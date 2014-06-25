@@ -2,6 +2,9 @@ function limitTextLength(config) {
     if (!config.element) {
         throw new Error("No element provided");
     }
+    if(!config.maxLength) {
+        throw new Error("No maxLength provided");
+    }
     element = jQuery(config.element);
     var originalText = element.text(),
         trimmedText = originalText.substring(0, config.maxLength),
