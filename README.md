@@ -26,4 +26,4 @@ class: CSS class for custom styling the span. Empty by default.
 css: An object containing CSS directives to be added to the span.
 
 Working example:
-http://jsfiddle.net/K8KgR/3/
+http://jsfiddle.net/K8KgR/4/
