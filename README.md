@@ -7,10 +7,13 @@ jQuery dependant function to limit the length of a text string inside a dom elem
 Usage
 -----
 
+```javascript
 limitTextLength({
   element: jQuery("selector"), //element is necessary. Can be a jQuery element, dom node or jQuery selector
   maxLength: 25 //Max string length (not including ...).
-})
+});
+```
+
 
 Optional parameters:
 
